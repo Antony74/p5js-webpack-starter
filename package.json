@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=dev webpack-dev-server --mode=development",
-    "build": "cross-env NODE_ENV=prod webpack --mode=production"
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
   },
   "author": "David Adalberth Andersen <david@stupid-studio.com> (http://stupid-studio.com)",
   "license": "ISC",
@@ -16,7 +15,6 @@
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.14.0",
-    "cross-env": "^3.1.3",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.21.0",
