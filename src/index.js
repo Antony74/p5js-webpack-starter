@@ -1,3 +1,3 @@
-require('scss/styles')
+require('css/styles')
 require('js/setup')
 
