@@ -2,12 +2,6 @@
 
 Build with webpack. 
 
-## template
-
-Edit the `src/templates/index.ejs` (https://github.com/ampedandwired/html-webpack-plugin).
-
-The template inlines the scss.
-
 ## Build Setup
 
 ``` bash
