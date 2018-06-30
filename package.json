@@ -10,10 +10,8 @@
   "author": "David Adalberth Andersen <david@stupid-studio.com> (http://stupid-studio.com)",
   "license": "ISC",
   "devDependencies": {
-    "ajv": "^6.5.1",
     "babel-core": "^6.14.0",
     "babel-loader": "^7.1.4",
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
