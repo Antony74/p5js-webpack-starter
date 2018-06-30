@@ -2,9 +2,6 @@ const P5 = require('p5');
 
 new P5((p5) => {
  
-    var x = 100; 
-    var y = 100;
-
     p5.setup = () => {
       console.log('setup');
     };
